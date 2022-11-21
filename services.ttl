@@ -39,7 +39,7 @@
 
 :metaspec a skos:Concept ;
     skos:broader :metadata ;
-    skos:prefLabel "Metadata spezifizieren"@de .
+    skos:prefLabel "Metadaten spezifizieren"@de .
 
 :metarefine a skos:Concept ;
     skos:broader :metadata ;
