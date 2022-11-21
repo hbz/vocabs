@@ -51,7 +51,8 @@
 
 :datarepo a skos:Concept ;
     skos:broader :repo ;
-    skos:prefLabel "Forschungsdaten ablegen & veröffentlichen"@de .
+    skos:prefLabel "Forschungsdaten ablegen & veröffentlichen"@de ;
+    skos:related :doi, :lzvdata, :metadata .
 
 :datapub a skos:Concept ;
     skos:broader :repo ;
