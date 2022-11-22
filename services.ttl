@@ -18,66 +18,81 @@
     skos:prefLabel "Digitale Wissenschaft und Innovation"@de .
 
 :metadata a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :dwi ;
     skos:prefLabel "Metadatenmanagement"@de ;
     skos:altLabel "Wissen beschreiben"@de .
 
 :repo a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :dwi ;
     skos:prefLabel "Repositorien"@de ;
     skos:altLabel "Wissen speichern"@de .
 
 :oa a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :dwi ;
     skos:prefLabel "Open Access"@de ;
     skos:altLabel "Wissen publizieren"@de .
 
 :lzv a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :dwi ;
     skos:prefLabel "Langzeitverfügbarkeit"@de ;
     skos:altLabel "Wissen bewahren"@de .
 
 :metaspec a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :metadata ;
     skos:prefLabel "Metadaten spezifizieren"@de .
 
 :metarefine a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :metadata ;
     skos:prefLabel "Metadaten aufbereiten"@de .
 
 :metapub a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :metadata ;
     skos:prefLabel "Metadaten publizieren"@de .
 
 :datarepo a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :repo ;
     skos:prefLabel "Forschungsdaten ablegen & veröffentlichen"@de ;
     skos:related :doi, :lzvdata, :metadata .
 
 :datapub a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :repo ;
     skos:prefLabel "Publikationen ablegen & veröffentlichen"@de .
 
 :oapub a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :oa ;
     skos:prefLabel "Open Access veröffentlichen"@de .
 
 :doi a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :oa ;
     skos:prefLabel "DOI-Vergabe"@de .
 
 :oadiscovery a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :oa ;
     skos:prefLabel "Open-Access-Nachweise"@de .
 
 :lzvpub a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :lzv ;
     skos:prefLabel "LZV für Publikationen"@de .
 
 :lzvdata a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :lzv ;
     skos:prefLabel "LZV für Forschungsdaten"@de .
 
 :lzvweb a skos:Concept ;
+    skos:inScheme : ;
     skos:broader :lzv ;
     skos:prefLabel "LZV für Webseiten"@de .
